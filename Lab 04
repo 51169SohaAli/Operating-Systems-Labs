@@ -1,0 +1,194 @@
+Task 1:
+student@student-virtual-machine:~$ ls
+books  Desktop  Documents  file1  files1.txt  file.txt  file2.txt  file.txt  Lab  Labsort  newFile  Pictures  Quiz  Public  Music  OS  sarmeen sarmeen.cpp Templates sarmeen snap Videos
+student@student-virtual-machine:~$ cd books
+student@student-virtual-machine:~/books$ ls
+atomic-notes.txt
+student@student-virtual-machine:~/books$ pico
+student@student-virtual-machine:~/books$ cat atomic-notes.txt
+atomic bomb
+student@student-virtual-machine:~/books$ mv atomic-notes.txt at-notes.txt
+student@student-virtual-machine:~/books$ ls
+at-notes.txt
+
+Task 2:
+student@student-virtual-machine:~/books$ mkdir physics
+student@student-virtual-machine:~/books$ cd physics
+student@student-virtual-machine:~/books/physics$ mkdir nuclear
+student@student-virtual-machine:~/books/physics$ cd nuclear
+student@student-virtual-machine:~/books/physics/nuclear$ cd ..
+student@student-virtual-machine:~/books/physics$ cd books
+student@student-virtual-machine:~/books$ cp at-notes.txt physics/nuclear
+student@student-virtual-machine:~/books$ cd physics/nuclear
+student@student-virtual-machine:~/books/physics/nuclear$ ls
+at-notes.txt
+
+Task 3(1):
+student@student-virtual-machine:~$ chmod u-w result.comp
+student@student-virtual-machine:~$ ls-l
+ls-l: command not found
+student@student-virtual-machine:~$ ls -l
+total 120
+drwxrwxr-x 3 student student  4096 13:52 12 سنتمبر book1
+drwxrwxr-x 3 student student  4096 14:44 12 سنتمبر books
+drwxrwxr-x 6 student student  4096 14:52 5 سنتمبر Books
+-rw-rw-r-- 1 student student     6 13:26 12 سنتمبر cats.txt
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Desktop
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Documents
+drwxr-xr-x 3 student student  4096 11:23 26 اگست Downloads
+-rw-rw-r-- 1 student student     0 09:19 10 سنتمبر file
+-rw-rw-r-- 1 student student    18 09:30 10 سنتمبر file1
+-rw-rw-r-- 1 student student    16 13:28 12 سنتمبر filee.txt
+-rw-rw-r-- 1 student student    16 13:34 12 سنتمبر filee1.txt
+-rw-rw-r-- 1 student student    38 13:25 12 سنتمبر file.txt
+drwxrwxr-x 2 student student  4096 13:43 5 سنتمبر lab
+drwxrwxr-x 3 student student  4096 15:03 5 سنتمبر labsort
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Music
+drwxrwxr-x 2 student student  4096 13:43 5 سنتمبر newFile
+drwxrwxr-x 2 student student  4096 13:42 5 سنتمبر OS
+drwxr-xr-x 3 student student  4096 10:21 13 اگست Public
+-r--rw-r-- 1 student student     7 14:54 12 سنتمبر result.comp
+drwxrwxr-x 1 student student 16384 10:10 3 سنتمبر samreen
+-rw-rwxrwx 1 student student    71 10:09 3 سنتمبر samreen.cpp
+drwxrwxr-x 2 student student  4096 10:34 27 اگست Samreen
+drwx------ 4 student student  4096 11:23 26 اگست snap
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Templates
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Videos
+student@student-virtual-machine:~$
+
+Task 3(2):
+student@student-virtual-machine:~$ chmod u-w result.comp
+student@student-virtual-machine:~$ ls -l
+total 120
+drwxrwxr-x 3 student student  4096 13:52 12 سنتمبر book1
+drwxrwxr-x 3 student student  4096 14:44 12 سنتمبر books
+drwxrwxr-x 6 student student  4096 14:52 5 سنتمبر Books
+-rw-rw-r-- 1 student student     6 13:26 12 سنتمبر cats.txt
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Desktop
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Documents
+drwxr-xr-x 3 student student  4096 11:23 26 اگست Downloads
+-rw-rw-r-- 1 student student     0 09:19 10 سنتمبر file
+-rw-rw-r-- 1 student student    18 09:30 10 سنتمبر file1
+-rw-rw-r-- 1 student student    16 13:28 12 سنتمبر filee.txt
+-rw-rw-r-- 1 student student    16 13:34 12 سنتمبر filee1.txt
+-rw-rw-r-- 1 student student    38 13:25 12 سنتمبر file.txt
+drwxrwxr-x 2 student student  4096 13:43 5 سنتمبر lab
+drwxrwxr-x 3 student student  4096 15:03 5 سنتمبر labsort
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Music
+drwxrwxr-x 2 student student  4096 13:43 5 سنتمبر newFile
+drwxrwxr-x 2 student student  4096 13:42 5 سنتمبر OS
+drwxr-xr-x 3 student student  4096 10:21 13 اگست Public
+-r--rw-r-- 1 student student     7 14:54 12 سنتمبر result.comp
+drwxrwxr-x 1 student student 16384 10:10 3 سنتمبر samreen
+-rw-rwxrwx 1 student student    71 10:09 3 سنتمبر samreen.cpp
+drwxrwxr-x 2 student student  4096 10:34 27 اگست Samreen
+drwx------ 4 student student  4096 11:23 26 اگست snap
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Templates
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Videos
+student@student-virtual-machine:~$
+
+Task 3(3):
+student@student-virtual-machine:~$ chmod u-w result.comp
+student@student-virtual-machine:~$ ls -l
+total 120
+drwxrwxr-x 3 student student  4096 13:52 12 سنتمبر book1
+drwxrwxr-x 3 student student  4096 14:44 12 سنتمبر books
+drwxrwxr-x 6 student student  4096 14:52 5 سنتمبر Books
+-rw-rw-r-- 1 student student     6 13:26 12 سنتمبر cats.txt
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Desktop
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Documents
+drwxr-xr-x 3 student student  4096 11:23 26 اگست Downloads
+-rw-rw-r-- 1 student student     0 09:19 10 سنتمبر file
+-rw-rw-r-- 1 student student    18 09:30 10 سنتمبر file1
+-rw-rw-r-- 1 student student    16 13:28 12 سنتمبر filee.txt
+-rw-rw-r-- 1 student student    16 13:34 12 سنتمبر filee1.txt
+-rw-rw-r-- 1 student student    38 13:25 12 سنتمبر file.txt
+drwxrwxr-x 2 student student  4096 13:43 5 سنتمبر lab
+drwxrwxr-x 3 student student  4096 15:03 5 سنتمبر labsort
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Music
+drwxrwxr-x 2 student student  4096 13:43 5 سنتمبر newFile
+drwxrwxr-x 2 student student  4096 13:42 5 سنتمبر OS
+drwxr-xr-x 3 student student  4096 10:21 13 اگست Public
+-r--rw-r-- 1 student student     7 14:54 12 سنتمبر result.comp
+drwxrwxr-x 1 student student 16384 10:10 3 سنتمبر samreen
+-rw-rwxrwx 1 student student    71 10:09 3 سنتمبر samreen.cpp
+drwxrwxr-x 2 student student  4096 10:34 27 اگست Samreen
+drwx------ 4 student student  4096 11:23 26 اگست snap
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Templates
+drwxr-xr-x 2 student student  4096 10:21 13 اگست Videos
+student@student-virtual-machine:~$
+
+
+Task 4(1):
+student@student-virtual-machine:~$ mkdir lab4
+student@student-virtual-machine:~$ cd lab4
+student@student-virtual-machine:~/lab4$ pico
+student@student-virtual-machine:~/lab4$ pico
+student@student-virtual-machine:~/lab4$ pico
+student@student-virtual-machine:~/lab4$ ls
+quiz  report  viva
+student@student-virtual-machine:~/lab4$ ls -l
+total 12
+-rw-rw-r-- 1 student student 5 15:14 12 سنتمبر quiz
+-rw-rw-r-- 1 student student 7 15:14 12 سنتمبر report
+-rw-rw-r-- 1 student student 5 15:14 12 سنتمبر viva
+student@student-virtual-machine:~/lab4$ chmod g-w quiz
+student@student-virtual-machine:~/lab4$ ls -l
+total 12
+-rw-r--r-- 1 student student 5 15:14 12 سنتمبر quiz
+-rw-rw-r-- 1 student student 7 15:14 12 سنتمبر report
+-rw-rw-r-- 1 student student 5 15:14 12 سنتمبر viva
+student@student-virtual-machine:~/lab4$ chmod g-r report
+student@student-virtual-machine:~/lab4$ ls -l
+total 12
+-rw-r--r-- 1 student student 5 15:14 12 سنتمبر quiz
+-rw--w-r-- 1 student student 7 15:14 12 سنتمبر report
+-rw-rw-r-- 1 student student 5 15:14 12 سنتمبر viva
+student@student-virtual-machine:~/lab4$ chmod ugo+x viva
+student@student-virtual-machine:~/lab4$ ls -l
+total 12
+-rw-r--r-- 1 student student 5 15:14 12 سنتمبر quiz
+-rw--w-r-- 1 student student 7 15:14 12 سنتمبر report
+-rwxrwxr-x 1 student student 5 15:14 12 سنتمبر viva
+student@student-virtual-machine:~/lab4$
+
+Task 4(2):
+student@student-virtual-machine:~$ chmod u-w result.comp
+student@student-virtual-machine:~$ ls -l
+total 132
+drwxrwxr-x 3 student student  4096 13:52 12 سبتمر  book1
+drwxrwxr-x 3 student student  4096 14:44 12 سبتمر  books
+drwxrwxr-x 6 student student  4096 14:52 5 أکتوبر  Books
+-rw-rw-r-- 1 student student     6 13:26 12 سبتمر  cats.txt
+drwxr-xr-x 2 student student  4096 10:21 13 أکتوبر  Desktop
+drwxr-xr-x 2 student student  4096 10:21 13 أکتوبر  Documents
+drwxr-xr-x 3 student student  4096 11:23 26 أکتوبر  Downloads
+-rw-rw-r-- 1 student student    26 09:19 10 سبتمر  file
+-rw-rw-r-- 1 student student    18 09:30 10 سبتمر  ffile1
+-r-xrwxr-- 1 student student    16 13:28 12 سبتمر  fllee.txt
+-rw-rw-r-- 1 student student    16 13:34 12 سبتمر  files1.txt
+-rw-rw-r-- 1 student student    38 13:25 12 سبتمر  file.txt
+drwxrwxr-x 2 student student  4096 13:43 5 أکتوبر  lab
+drwxrwxrwx 2 student student  4096 15:14 12 سبتمر  lab4
+-rw-rw-r-- 1 student student    88 09:03 3 سبتمر  labsort
+drwxr-xr-x 2 student student  4096 10:21 13 أکتوبر  Music
+-rw-rwxr-- 1 student student    57 15:11 12 سبتمر  myfile.txt
+-rw-rw-r-- 1 student student   107 09:11 3 سبتمر  newFile
+drwxr-xr-x 2 student student  4096 13:42 5 أکتوبر  OS
+drwxr-xr-x 2 student student  4096 15:03 5 أکتوبر  Pictures
+drwxr-xr-x 2 student student  4096 10:21 13 أکتوبر  Public
+drwxrwxr-x 2 student student  4096 13:43 5 أکتوبر  Quiz
+-r--r-rw-- 1 student student     7 14:54 12 سبتمر  result.comp
+-rwxrwxr-x 1 student student 16384 10:10 3 سبتمر  samreen
+drwxrwxr-x 2 student student  4096 10:34 27 أکتوبر  Samreen
+-rwxrwxrwx 1 student student    71 10:09 3 سبتمر  samreen.cpp
+drwx------ 4 student student  4096 11:23 26 أکتوبر  snap
+-rw-rwxr-- 1 student student     6 15:03 12 سبتمر  stock.txt
+drwxr-xr-x 2 student student  4096 10:21 13 أکتوبر  Templates
+drwxr-xr-x 2 student student  4096 10:21 13 أکتوبر  Videos
+student@student-virtual-machine:~$
+
+
+
+
+
