@@ -1,0 +1,58 @@
+Task 1:
+student@student-virtual-machine:~$ uname -r
+6.0.0-40-generic
+student@student-virtual-machine:~$ uname -m
+x86_64
+student@student-virtual-machine:~$ uname -p
+x86_64
+student@student-virtual-machine:~$ uname -i
+uname: invalid option -- 'i'
+Try 'uname --help' for more information.
+student@student-virtual-machine:~$ uname -o
+GNU/Linux
+student@student-virtual-machine:~$ uname -a
+Linux student-virtual-machine 6.0.0-40-generic #46~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 30 17:30:19 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+student@student-virtual-machine:~$ uname -n
+student-virtual-machine
+
+
+Task 2:
+student@student-virtual-machine:~$ cat>labSort
+End of file
+6 apples
+file to be sorted
+apple on the table
+23 years old
+File To be Sorted
+78 apples
+Class
+3 bananas
+99 sort files
+student@student-virtual-machine:~$ sort -r labSort
+File To be Sorted
+file to be sorted
+End of file
+Class
+apple on the table
+99 sort files
+78 apples
+6 apples
+23 years old
+3 bananas
+student@student-virtual-machine:~$ sort -b labSort
+23 years old
+3 bananas
+6 apples
+78 apples
+99 sort files
+apple on the table
+Class
+End of file
+file to be sorted
+File To be Sorted
+student@student-virtual-machine:~$ sort -f labSort
+
+
+Task 3:
+
+Task 4:
