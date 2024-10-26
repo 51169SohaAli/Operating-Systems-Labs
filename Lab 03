@@ -1,0 +1,20 @@
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~$ mkdir books
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~$ cd books
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ mkdir chemistry
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ cd chemistry
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/chemistry$ cd ..
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ mkdir physics
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ mkdir computer
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ cd computer
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/computer$ mkdir graphics
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/computer$ cd ..
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ mkdir math
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ cd physics
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/physics$ mkdir quantum
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/physics$ cd ..
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books$ cd math
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/math$ mkdir calculus
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/math$ ls
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/math$ rm -r calculus
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/math$ ls
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/books/math$ cd
